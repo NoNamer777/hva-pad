@@ -1,0 +1,57 @@
+.title {
+  color: white;
+  font-size: xx-large;
+  margin-left: 14%;
+}
+
+.myClassList, .groupChallengesList {
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: white;
+  width: 400px;
+  height: 700px;
+  margin: 0 4% 0 14%;
+}
+
+.challengeStudent {
+  color: white;
+  background-color: dodgerblue;
+  border: 0;
+  font-size: large;
+  padding: 10px 24px;
+  cursor: pointer;
+  height: 41px;
+}
+
+#warning {
+  color: red;
+  font-weight: bold;
+  margin-left: 1%;
+  font-size: x-large;
+}
+
+.userGroupContent, .groupChallengeContent {
+  margin: 2% 2% 0 2%;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+#userIcon img {
+  width: 48px;
+  height: 48px;
+}
+
+#username, #challengeName {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 1% 0 0 4%;
+}
+
+#totalPoints, #timeRemaining {
+  margin: 0 0 1% 4%;
+  width: 100%;
+}
+
+.selected {
+  background-color: rgba(0, 180, 204, 0.32);
+}

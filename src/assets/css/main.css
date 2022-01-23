@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    font-family: "Arial";
+    font-size: 14px;
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.main .header {
+    flex: 0 1 auto;
+}
+
+.main .center {
+    flex: 1 1 auto;
+    flex-flow: column;
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(67, 158, 58, 0.74);
+}
+
+.main .footer {
+    flex: 0 1 40px;
+}
+
+.flex {
+    display: flex;
+}

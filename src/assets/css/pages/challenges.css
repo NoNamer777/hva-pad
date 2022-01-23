@@ -1,0 +1,165 @@
+.challengesContent {
+    margin: 2% 32%;
+    height: auto;
+    width: auto;
+}
+
+.challengesContent ul {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 340px;
+    background-color: white;
+}
+
+.instructionalText {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid black 1px;
+}
+
+.challengesLists {
+    margin-left: -20px;
+}
+
+.availableChallengesBox {
+    margin-right: 16px;
+}
+
+.challengeTile {
+    list-style: none;
+    padding: 4px 64px;
+}
+
+.selectedChallenge {
+    background-color: rgba(61,187,53,0.51);
+}
+
+#removeChallenge {
+    transform: translate(-40px, 8px);
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#finishChallenge {
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translate(40px, 8px);
+}
+
+#challengeName {
+    font-weight: bold;
+}
+
+#challengePoints {
+    margin-left: auto;
+    padding-left: 16px;
+}
+
+#timeRemaining {
+    margin-left: auto;
+}
+
+.takeChallenge, .createChallenge {
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.takeChallenge {
+    margin-right: 220px;
+    margin-left: -20px;
+}
+
+.takeChallengeBackground {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.takeChallengeBox {
+    position: absolute;
+    margin: 25% 35%;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+#removeChallengeWarning {
+    color: white;
+    font-weight: bold;
+}
+
+#bookList {
+    margin-right: 8px;
+}
+
+#liBook {
+    list-style: none;
+}
+
+#addBook {
+    color: #3dbb35;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#exitButton {
+    cursor: pointer;
+}
+
+.reviewContent {
+    display: none;
+    z-index: 15;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.review {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 12px;
+    width: 26%;
+    z-index: 20;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+}
+
+.review h2 {
+    margin: 24px 8px;
+}
+
+.review .fa {
+    display: inline;
+    margin: 10px 15px;
+    padding: 0 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+.emoji {
+    font-size: 20px;
+    margin: 0 34px;
+}

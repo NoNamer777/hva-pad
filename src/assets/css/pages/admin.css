@@ -1,0 +1,68 @@
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.leftWrapper {
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.rightWrapper {
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.studentListWrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.studentListBorder {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.unnapprovedStudentList, .approvedStudentList, .groupStudentList {
+    list-style-type: none;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    background-color: white;
+}
+
+li.studentRow {
+    padding: 5px 10px;
+    border-bottom: solid 1px;
+}
+
+#challenger, #pointsToWin, #dateTaken, #dateEnd,
+#apprChallenger, #pointsWon, #apprDateTaken, #apprDateEnd,
+#groupUsername, #name, #moderator, #winner, #apprCompletionDate {
+    font-weight: bold;
+}
+
+.approveBtn {
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.deleteBtn {
+    color: gray();
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

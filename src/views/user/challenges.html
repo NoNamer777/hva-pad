@@ -1,0 +1,82 @@
+<div class="challengesContent">
+    <div class="instructionalText">
+        <h3>Uitdagingen</h3>
+        Hier kun je uitdagingen bekijken en aangaan! links zie je een lijstje met beschikbare uitdagingen. <br>
+        Selecteer uit deze lijst een uitdaging en klik op 'Uitdaging Aangaan' om meer informatie toe te voegen. <br>
+        Wil je een compleet nieuwe uitdaging maken? klik dan op 'Uitdagining Maken.' <br><br>
+        Aan de rechterkant zie je een lijstje met uitdagingen die je al aan het doen bent.
+    </div>
+    <div class="challengesLists flex">
+        <div class="availableChallengesBox">
+            <ul class="availableChallengesList">
+                <!-- Takes all the challenges that are in the DB and adds it here -->
+            </ul>
+        </div>
+        <div class="takenChallengesBox">
+            <ul class="takenChallengesList">
+                <!-- Takes all the challenges that are taken by the user AT THIS MOMENT and adds it here -->
+            </ul>
+        </div>
+    </div>
+    <div class="buttonsBox flex">
+        <button class="takeChallenge">Uitdaging Aangaan</button>
+        <button class="createChallenge">Uitdaging Maken</button>
+    </div>
+    <div id="removeChallengeWarning"></div>
+
+    <div class="takeChallengeBackground"> <!-- pop scherm -->
+        <div class="takeChallengeBox">
+            <form name="takeChallenge">
+                <i id="exitButton" class="fas fa-times"></i>
+                <div class="flex">
+                    <div>
+                        Naam van de Uitdaging: <br>
+                        <input type="text" name="challengeName"><br><br>
+                        Boekenlijst:
+                        <div id="bookList">
+                            <ul>
+                            <!-- Gets filled with a DB query -->
+                            </ul>
+                            <i id="addBook" class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div>
+                        Start Datum Uitdaging: <br>
+                        <input type="date" name="challengeStartDate"> <br><br>
+                        Eind Datum Uitdaging: <br>
+                        <input type="date" name="challengeEndDate"> <br><br>
+                        Te Verdienen Punten: <br>
+                        <div id="pointsToWin">
+                            <!-- gets calculated with the by the controller -->
+                        </div><br><br>
+                        <div id="takeChallengeWarning"></div>
+                        <input id="takeChallenge" type="submit" value="Uitdaging Aangaan">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="reviewContent">
+        <div class="review">
+            <div class="ratingSection">
+                <h2>Boekennaam:</h2>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="reactionSection">
+                <h2>Reactie:</h2><br>
+                <span class="emoji">&#128512;</span>
+                <span class="emoji">&#128515;</span>
+                <span class="emoji">&#128528;</span>
+                <span class="emoji">&#128530;</span>
+                <span class="emoji">&#128532;</span>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+</div>

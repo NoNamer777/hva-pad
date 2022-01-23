@@ -1,0 +1,25 @@
+.title .jumbotron {
+	padding-top: 32px;
+    color: white;
+    text-align: center;
+	padding-bottom: 20px;
+	border-top: 1px solid #555;
+	border-bottom: 3px solid #555;
+}
+
+h3 {
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+    width: 1000px;
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+.content {
+    margin-left: 25%;
+}
+
+.content h2 {
+    color: white;
+}
